@@ -44,7 +44,7 @@ teleportToggleButton.Parent = screenGui
  
 -- Hide all button
 local hideAllButton = Instance.new("TextButton")
-hideAllButton.Text = "Hide All"
+hideAllButton.Text = "OFF UI"
 hideAllButton.Size = UDim2.new(0, 130, 0, 30)
 hideAllButton.Position = UDim2.new(0, 10, 0, 90)
 hideAllButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -54,7 +54,7 @@ hideAllButton.Parent = screenGui
  
 -- Show all button (small square)
 local showAllButton = Instance.new("TextButton")
-showAllButton.Text = "▶" -- small arrow
+showAllButton.Text = "ON UI" -- small arrow
 showAllButton.Size = UDim2.new(0, 30, 0, 30) -- small square 30x30
 showAllButton.Position = UDim2.new(0, 10, 0, 90) -- same position as hideAllButton
 showAllButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)

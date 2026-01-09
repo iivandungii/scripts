@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/iivandungii/scripts/refs/heads/main/tuikhongbiet.lua'))()
+local Rayfield = loadstring(game:HttpGet('https://tinyurl.com/27o6fswj'))()
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")

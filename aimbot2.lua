@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://tinyurl.com/27o6fswj'))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -61,10 +61,10 @@ RunService.RenderStepped:Connect(function()
 end)
 
 -- Rayfield GUI
-local Window = Rayfield:CreateWindow({
+local Window = xyzvandung:CreateWindow({
 	Name = "Aimbot FOV",
-	LoadingTitle = "Cargando...",
-	LoadingSubtitle = "By _zxmisaxz_",
+	LoadingTitle = "Loading...",
+	LoadingSubtitle = "xyzvandung",
 	ConfigurationSaving = {
 		Enabled = true,
 		FolderName = "AimbotFOV",

@@ -61,10 +61,10 @@ RunService.RenderStepped:Connect(function()
 end)
 
 -- Rayfield GUI
-local Window = Rayfield:CreateWindow({
+local Window = xyzvandunv:CreateWindow({
 	Name = "Aimbot FOV",
-	LoadingTitle = "Cargando...",
-	LoadingSubtitle = "By _zxmisaxz_",
+	LoadingTitle = "Loading",
+	LoadingSubtitle = "xyzvandung",
 	ConfigurationSaving = {
 		Enabled = true,
 		FolderName = "AimbotFOV",
@@ -98,7 +98,7 @@ Tab:CreateToggle({
 	end
 })
 Tab:CreateSlider({
-	Name = "Tamaño del FOV",
+	Name = "FOV",
 	Range = {50, 300},
 	Increment = 5,
 	CurrentValue = 100,
@@ -289,7 +289,7 @@ OptimTab:CreateButton({
 local FPSUnlockerEnabled = false
 
 OptimTab:CreateToggle({
-	Name = "FPS Unlocker (sin límite de 60 FPS)",
+	Name = "FPS Unlocker (without limit 60 FPS)",
 	CurrentValue = false,
 	Callback = function(value)
 		FPSUnlockerEnabled = value

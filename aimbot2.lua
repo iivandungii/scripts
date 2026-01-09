@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://tinyurl.com/27o6fswj'))()
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -61,10 +61,10 @@ RunService.RenderStepped:Connect(function()
 end)
 
 -- Rayfield GUI
-local Window = xyzvandunv:CreateWindow({
+local Window = Rayfield:CreateWindow({
 	Name = "Aimbot FOV",
-	LoadingTitle = "Loading",
-	LoadingSubtitle = "xyzvandung",
+	LoadingTitle = "Cargando...",
+	LoadingSubtitle = "By _zxmisaxz_",
 	ConfigurationSaving = {
 		Enabled = true,
 		FolderName = "AimbotFOV",
@@ -98,7 +98,7 @@ Tab:CreateToggle({
 	end
 })
 Tab:CreateSlider({
-	Name = "FOV",
+	Name = "Tamaño del FOV",
 	Range = {50, 300},
 	Increment = 5,
 	CurrentValue = 100,
@@ -289,7 +289,7 @@ OptimTab:CreateButton({
 local FPSUnlockerEnabled = false
 
 OptimTab:CreateToggle({
-	Name = "FPS Unlocker (without limit 60 FPS)",
+	Name = "FPS Unlocker (sin límite de 60 FPS)",
 	CurrentValue = false,
 	Callback = function(value)
 		FPSUnlockerEnabled = value

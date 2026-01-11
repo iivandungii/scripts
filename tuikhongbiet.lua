@@ -1,7 +1,7 @@
 --[[
 
-	Rayfield Interface Suite
-	by Sirius
+	okay Interface Suite
+	by okay
 
 	shlex  | Designing + Programming
 	iRay   | Programming
@@ -72,7 +72,7 @@ end
 local requestsDisabled = true --getgenv and getgenv().DISABLE_RAYFIELD_REQUESTS
 local InterfaceBuild = '3K3W'
 local Release = "Build 1.68"
-local RayfieldFolder = "Rayfield"
+local RayfieldFolder = "xyzvandung"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".rfld"
 local settingsTable = {
@@ -671,7 +671,7 @@ repeat
 
 	if not warned then
 		warn('Rayfield | Build Mismatch')
-		print('Rayfield may encounter issues as you are running an incompatible interface version ('.. ((Rayfield:FindFirstChild('Build') and Rayfield.Build.Value) or 'No Build') ..').\n\nThis version of Rayfield is intended for interface build '..InterfaceBuild..'.')
+		print('xyz('.. ((Rayfield:FindFirstChild('Build') and Rayfield.Build.Value) or 'No Build') ..').\n\nThis version of Rayfield is intended for interface build '..InterfaceBuild..'.')
 		warned = true
 	end
 
@@ -705,7 +705,7 @@ elseif not useStudio then
 	for _, Interface in ipairs(CoreGui:GetChildren()) do
 		if Interface.Name == Rayfield.Name and Interface ~= Rayfield then
 			Interface.Enabled = false
-			Interface.Name = "Rayfield-Old"
+			Interface.Name = "Xyz-Old"
 		end
 	end
 end
